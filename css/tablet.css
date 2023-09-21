@@ -1,0 +1,131 @@
+@media screen and (min-width: 768px) {
+  ul {
+    margin: 0;
+  }
+  .container {
+    width: 768px;
+  }
+  /* --------------HEADER--------------  */
+  .header-navigation {
+    margin-left: 120px;
+    margin-right: auto;
+  }
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-list-contact {
+    display: block;
+    justify-content: right;
+  }
+  .header-mailto,
+  .header-tel {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+  .header-mailto {
+    margin-bottom: 4px;
+  }
+  .menu-open {
+    display: none;
+  }
+  /* --------------SECTION HERO--------------  */
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+    width: 496px;
+  }
+
+  /* --------------SECTION LIGHT--------------  */
+  .light-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .light-item {
+    max-width: 356px;
+    flex-basis: calc((100%-30px) / 2);
+  }
+
+  .light-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  /* --------------SECTION CLIENTS--------------  */
+  .clients-list {
+    column-gap: 24px;
+  }
+
+  .clients-item {
+    max-width: 168px;
+    flex-basis: calc((100% - 24px) / 3);
+  }
+
+  .clients-icon {
+    width: 104px;
+  }
+  /* --------------SECTION TEAM--------------  */
+  .team {
+    padding-bottom: 104px;
+  }
+  .team-list {
+    gap: 24px;
+    row-gap: 64px;
+  }
+  /* --------------FILTER--------------  */
+  .filter-item-img {
+    width: 356px;
+  }
+
+  .filter-list-card {
+    row-gap: 72px;
+  }
+  /* --------------FOOTER--------------  */
+  .line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 533px;
+  }
+
+  .footer-info {
+    margin: 0 24px 72px 0;
+  }
+  .footer-logos,
+  .footer-title,
+  .footer-media-title {
+    justify-content: flex-start;
+  }
+  .footer-media-post {
+    display: block;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-post {
+    display: flex;
+  }
+  .footer-media-title {
+    text-align: left;
+  }
+  /* --------------MODAL--------------  */
+  .modal-comment {
+    width: 340px;
+  }
+}

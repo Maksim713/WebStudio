@@ -1,0 +1,139 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1128px;
+    padding: 0;
+  }
+  /* --------------HEADER--------------  */
+  .header {
+    padding: 24px 0;
+  }
+  .header-navigation {
+    margin-left: 77px;
+    margin-right: auto;
+  }
+  .header-list,
+  .header-list-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .header-mailto,
+  .header-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /* --------------SECTION HERO--------------  */
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
+    height: 600px;
+    padding: 187px 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/hero-bg-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 300px 48px;
+  }
+
+  /* --------------SECTION LIGHT--------------  */
+  .light {
+    padding: 120px 0;
+  }
+
+  .light-list {
+    gap: 24px;
+  }
+
+  .light-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .light-item-icon {
+    display: block;
+    background-color: var(--light);
+    padding: 24px 100px;
+    border-radius: 4px;
+  }
+
+  .light-title {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .light-after-title {
+    font-weight: 400;
+  }
+  /* -------------SECTION WORK------------- */
+
+  .work {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+
+  .work-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  /* --------------SECTION TEAM--------------  */
+  .team {
+    padding: 120px 0;
+  }
+  /* --------------SECTION CLIENTS--------------  */
+
+  .clients {
+    padding: 120px 0;
+  }
+
+  .clients-item {
+    flex-basis: calc((100% - 24px) / 6);
+  }
+
+  /* --------------FOOTER--------------  */
+  .line {
+    max-width: 1128px;
+    flex-wrap: nowrap;
+  }
+
+  .footer-info {
+    margin-bottom: 0;
+    margin-right: 120px;
+  }
+  .footer-logos {
+    justify-content: left;
+  }
+  .footer-title {
+    text-align: left;
+  }
+  .footer-media {
+    margin-bottom: 0;
+    margin-right: 80px;
+  }
+
+  .footer-post {
+    flex-wrap: nowrap;
+  }
+}
